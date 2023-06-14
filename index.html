@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #f6f6edab;
+      }
+      .cards {
+        display: flex;
+        align-items: center;
+      }
+      .card_top {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+      }
+      .title_paragraphe {
+        width: 460px;
+        text-align: center;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #fff;
+        margin: 30px;
+        padding: 25px;
+        width: 270px;
+      }
+      .img_first_card {
+        width: 50px;
+        margin-left: auto;
+        margin-top: 30px;
+      }
+      .title_first_card {
+        color: #1e0d49;
+        font-weight: bold;
+        font-family: "circular";
+        font-size: 15px;
+      }
+
+      .title_deuxieme_card {
+        color: #1e0d49;
+        font-weight: bold;
+        font-family: "circular";
+        font-size: 15px;
+      }
+      .img_deuxieme_card {
+        width: 40px;
+        margin-left: auto;
+        margin-top: 30px;
+      }
+
+      .img_troisieme_card {
+        width: 40px;
+        margin-left: auto;
+        margin-top: 30px;
+      }
+      .title_troisieme_card {
+        color: #1e0d49;
+        font-weight: bold;
+        font-family: "circular";
+        font-size: 15px;
+      }
+
+      .img_quatrieme_card {
+        width: 40px;
+        margin-left: auto;
+        margin-top: 30px;
+      }
+      .title_quatrieme_card {
+        color: #1e0d49;
+        font-weight: bold;
+        font-family: "circular";
+        font-size: 15px;
+      }
+      .centre_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="four_card">
+      <div class="card_top">
+        <p class="title">Reliable, efficient delivery</p>
+        <h3 class="title_2">Powered by Technology</h3>
+        <p class="title_paragraphe">
+          Our Artificial intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <p class="title_troisieme_card">Supervisor</p>
+          <p class="pragraphe_troisieme_card">
+            Monitors activity to identify project roadblocks
+          </p>
+          <img
+            src="images/icon-supervisor.svg"
+            alt=""
+            class="img_troisieme_card"
+          />
+        </div>
+        <div class="centre_card">
+          <div class="card">
+            <p class="title_first_card">Team Builder</p>
+            <p class="paragraphe_first_card">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              src="images/icon-team-builder.svg"
+              alt=""
+              class="img_first_card"
+            />
+          </div>
+          <div class="card">
+            <p class="title_deuxieme_card">Karma</p>
+            <p class="pragraphe_deuxieme_card">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img src="images/icon-karma.svg" alt="" class="img_deuxieme_card" />
+          </div>
+        </div>
+        <div class="card">
+          <p class="title_quatrieme_card">Calculator</p>
+          <p class="pragraphe_quatrieme_card">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            src="images/icon-calculator.svg"
+            alt=""
+            class="img_quatrieme_card"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">Coded by <a href="#">Zahra Chebbi</a>.</p>
+    </footer>
+  </body>
+</html>
